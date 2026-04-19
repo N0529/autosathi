@@ -1,0 +1,31 @@
+{
+  "route": {
+    "id": "pune-FROMAREA-TOAREA",
+    "name": "From Area to To Area",
+    "from_area": "From Area",
+    "to_area": "To Area",
+    "city": "Pune",
+    "is_active": true,
+    "contributed_by": "your-github-username",
+    "last_verified": "YYYY-MM-DD"
+  },
+  "stops": [
+    {
+      "sequence": 1,
+      "name": "Stop Name",
+      "landmark": "Nearby landmark (temple, station, building)",
+      "latitude": 18.0000,
+      "longitude": 73.0000
+    },
+    {
+      "sequence": 2,
+      "name": "Stop Name",
+      "landmark": "Nearby landmark",
+      "latitude": 18.0000,
+      "longitude": 73.0000
+    }
+  ],
+  "fares": [
+    { "from_stop": 1, "to_stop": 2, "amount_rupees": 0 }
+  ]
+}

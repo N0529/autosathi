@@ -1,0 +1,61 @@
+{
+  "route": {
+    "id": "pune-akurdi-sane-chowk",
+    "name": "Akurdi to Sane Chowk",
+    "from_area": "Akurdi",
+    "to_area": "Sane Chowk",
+    "city": "Pune",
+    "is_active": true,
+    "contributed_by": "community",
+    "last_verified": "2024-01-01"
+  },
+  "stops": [
+    {
+      "sequence": 1,
+      "name": "Akurdi",
+      "landmark": "Akurdi Station",
+      "latitude": 18.6488,
+      "longitude": 73.7601
+    },
+    {
+      "sequence": 2,
+      "name": "Kasturi Market",
+      "landmark": "Kasturi Market Chowk",
+      "latitude": 18.6423,
+      "longitude": 73.7689
+    },
+    {
+      "sequence": 3,
+      "name": "Chinchwad",
+      "landmark": "Chinchwad Station",
+      "latitude": 18.6279,
+      "longitude": 73.7970
+    },
+    {
+      "sequence": 4,
+      "name": "PCMC Chowk",
+      "landmark": "PCMC Building",
+      "latitude": 18.6208,
+      "longitude": 73.8063
+    },
+    {
+      "sequence": 5,
+      "name": "Sane Chowk",
+      "landmark": "Sane Guruji Chowk",
+      "latitude": 18.6102,
+      "longitude": 73.8156
+    }
+  ],
+  "fares": [
+    { "from_stop": 1, "to_stop": 2, "amount_rupees": 10 },
+    { "from_stop": 1, "to_stop": 3, "amount_rupees": 15 },
+    { "from_stop": 1, "to_stop": 4, "amount_rupees": 20 },
+    { "from_stop": 1, "to_stop": 5, "amount_rupees": 25 },
+    { "from_stop": 2, "to_stop": 3, "amount_rupees": 10 },
+    { "from_stop": 2, "to_stop": 4, "amount_rupees": 15 },
+    { "from_stop": 2, "to_stop": 5, "amount_rupees": 20 },
+    { "from_stop": 3, "to_stop": 4, "amount_rupees": 10 },
+    { "from_stop": 3, "to_stop": 5, "amount_rupees": 15 },
+    { "from_stop": 4, "to_stop": 5, "amount_rupees": 10 }
+  ]
+}
